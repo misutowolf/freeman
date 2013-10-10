@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f523497-18d0-42ca-bc27-006c00a4317e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/source_address_spec.rb" afterPath="$PROJECT_DIR$/spec/source_address_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/source_port_spec.rb" afterPath="$PROJECT_DIR$/spec/source_port_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/source_socket.rb" afterPath="$PROJECT_DIR$/lib/source_socket.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/source_socket_spec.rb" afterPath="$PROJECT_DIR$/spec/source_socket_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="freeman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/README.md" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381345131476" ignored="false" />
     <file path="/source_address_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381410392833" ignored="false" />
-    <file path="/Dummy.txt" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381410239609" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381417649203" ignored="false" />
     <file path="/source_address.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381408474590" ignored="false" />
     <file path="/a.rxml" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381377310499" ignored="false" />
     <file path="/spec_helper.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381378741899" ignored="false" />
-    <file path="/source_socket.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381410293920" ignored="false" />
+    <file path="/source_socket.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381417663812" ignored="false" />
     <file path="/source_socket_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381410400642" ignored="false" />
     <file path="/source_port_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381408111101" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +47,7 @@
       <file leaf-file-name="source_socket.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="438" selection-end="438" vertical-scroll-proportion="0.4888889">
+            <state line="20" column="22" selection-start="453" selection-end="453" vertical-scroll-proportion="0.44444445">
               <folding />
             </state>
           </provider>
@@ -88,10 +85,10 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/lib/source_port.rb" />
         <option value="$PROJECT_DIR$/lib/source_address.rb" />
-        <option value="$PROJECT_DIR$/lib/source_socket.rb" />
         <option value="$PROJECT_DIR$/spec/source_socket_spec.rb" />
         <option value="$PROJECT_DIR$/spec/source_address_spec.rb" />
         <option value="$PROJECT_DIR$/spec/source_port_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/source_socket.rb" />
       </list>
     </option>
   </component>
@@ -486,7 +483,11 @@
       <created>1381410244572</created>
       <updated>1381410244572</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Working with unit testing (socket/port/addr), planning unit test for connection stuff now.">
+      <created>1381417651042</created>
+      <updated>1381417651042</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -575,7 +576,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started work with SourceSocket" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with unit testing (socket/port/addr), planning unit test for connection stuff now." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -592,6 +593,7 @@
     <MESSAGE value="SourceAddress created, played with RSpec and unit testing for the first time." />
     <MESSAGE value="Created SourcePort object with logic for checking validity of numbers." />
     <MESSAGE value="Started work with SourceSocket" />
+    <MESSAGE value="Working with unit testing (socket/port/addr), planning unit test for connection stuff now." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -681,7 +683,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="438" selection-end="438" vertical-scroll-proportion="0.4888889">
+        <state line="20" column="22" selection-start="453" selection-end="453" vertical-scroll-proportion="0.44444445">
           <folding />
         </state>
       </provider>

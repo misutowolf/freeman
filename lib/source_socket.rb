@@ -18,7 +18,7 @@ class SourceSocket
   end
 
   def connect
-
+    # TODO: Connection
   end
 
 end
