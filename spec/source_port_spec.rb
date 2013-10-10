@@ -1,7 +1,7 @@
 require 'rspec'
 require_relative '../lib/source_port'
 
-describe '#new' do
+describe 'SourcePort#new' do
 
   it '  - should take a valid number and return a SourcePort object' do
     @port = SourcePort.new 27016

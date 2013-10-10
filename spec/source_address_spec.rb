@@ -2,7 +2,7 @@ require 'rspec'
 require 'spec_helper'
 require_relative('../lib/source_address')
 
-describe '#new' do
+describe 'SourceAddress#new' do
 
   it ' - should take a valid IPv4 address and return a new SourceAddress' do
     addr = SourceAddress.new('127.0.0.1')

@@ -1,7 +1,7 @@
 require 'rspec'
 require_relative '../lib/source_socket'
 
-describe '#socket' do
+describe 'SourceSocket#new' do
 
   it '  - should take a SourceAddress and SourcePort object as parameters, returning a SourceSocket object' do
     @addr = SourceAddress.new '127.0.0.1'

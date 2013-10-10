@@ -1,5 +1,6 @@
 require 'source_address'
 require 'source_port'
+require 'socket'
 
 class SourceSocket
 
@@ -14,6 +15,10 @@ class SourceSocket
 
   def to_s
     "#{@addr}:#{@port}"
+  end
+
+  def connect
+
   end
 
 end
