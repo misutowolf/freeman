@@ -1,3 +1,19 @@
+require 'resolv'
+
 class SourceAddress
-  # To change this template use File | Settings | File Templates.
+
+  attr_accessor :hostname, :ip
+
+  def initialize(addr)
+
+    if Resolv::IPv4::Regex =~ addr
+      @ip=addr
+      @hostname=nil
+    else
+      @ip=Resolv::getaddress(addr)
+      @hostname=addr
+    end
+
+  end
+
 end
