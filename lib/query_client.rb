@@ -9,7 +9,7 @@
 
 =end
 
-class Query_Client
+class QueryClient
 
   # TODO: Implement Query_Client (After UDP netcode works.)
 

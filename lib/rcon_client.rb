@@ -9,7 +9,7 @@
 
 =end
 
-class RCON_Client
+class RCONClient
 
   # TODO: Implement RCON Client (After TCP netcode works.)
 
