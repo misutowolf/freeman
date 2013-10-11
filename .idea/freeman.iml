@@ -4,8 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.4, RVM: ruby-2.0.0-p247) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.14.3, RVM: ruby-2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.4, ruby-2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.14.3, ruby-2.0.0-p247) [gem]" level="application" />
   </component>
 </module>
 

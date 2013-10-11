@@ -1,3 +1,14 @@
+=begin
+
+  * Name: lib/source_address.rb
+  * Description: SourceAddress object for Freeman.
+  * Author: Charles "MisutoWolf" Baker
+    * GitHub: https://github.com/misutowolf
+  * Date: 10/11/2013
+  * License: MIT
+
+=end
+
 require 'resolv'
 
 class SourceAddress

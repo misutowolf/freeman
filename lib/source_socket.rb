@@ -1,3 +1,14 @@
+=begin
+
+  * Name: lib/source_socket.rb
+  * Description: SourceSocket object for Freeman.
+  * Author: Charles "MisutoWolf" Baker
+    * GitHub: https://github.com/misutowolf
+  * Date: 10/11/2013
+  * License: MIT
+
+=end
+
 require 'source_address'
 require 'source_port'
 require 'socket'
@@ -18,7 +29,7 @@ class SourceSocket
   end
 
   def connect
-    # TODO: Connection
+    # TODO:  Deal with connecting to a remote server.
   end
 
 end

@@ -1,3 +1,14 @@
+=begin
+
+  * Name: spec/source_address_spec.rb
+  * Description: SourceAddress test spec for Freeman.
+  * Author: Charles "MisutoWolf" Baker
+    * GitHub: https://github.com/misutowolf
+  * Date: 10/11/2013
+  * License: MIT
+
+=end
+
 require 'rspec'
 require 'spec_helper'
 require_relative('../lib/source_address')
