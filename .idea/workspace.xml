@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f523497-18d0-42ca-bc27-006c00a4317e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/query_client.rb" afterPath="$PROJECT_DIR$/lib/query_client.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rcon_client.rb" afterPath="$PROJECT_DIR$/lib/rcon_client.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/source_buffer.rb" afterPath="$PROJECT_DIR$/lib/source_buffer.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="freeman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/README.md" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381345131476" ignored="false" />
     <file path="/source_address_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511073098" ignored="false" />
-    <file path="/Dummy.txt" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511340936" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511403215" ignored="false" />
     <file path="/source_address.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510802520" ignored="false" />
     <file path="/a.rxml" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381377310499" ignored="false" />
     <file path="/spec_helper.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511059464" ignored="false" />
     <file path="/source_socket.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510787356" ignored="false" />
     <file path="/source_socket_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510980638" ignored="false" />
     <file path="/source_port_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511068018" ignored="false" />
-    <file path="/source_buffer.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511306443" ignored="false" />
+    <file path="/source_buffer.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381514805593" ignored="false" />
     <file path="/source_port.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510776428" ignored="false" />
     <file path="/rcon_client.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510922746" ignored="false" />
     <file path="/query_client.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510910858" ignored="false" />
@@ -103,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query_client.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="query_client.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/query_client.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="227" selection-end="227" vertical-scroll-proportion="0.20662983">
+            <state line="11" column="11" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,16 +114,16 @@
       <file leaf-file-name="source_socket.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="29" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+            <state line="32" column="8" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="source_buffer.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="source_buffer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/source_buffer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+            <state line="29" column="106" selection-start="913" selection-end="913" vertical-scroll-proportion="0.5447514">
               <folding />
             </state>
           </provider>
@@ -166,9 +165,9 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/source_port_spec.rb" />
         <option value="$PROJECT_DIR$/spec/source_address_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/source_buffer.rb" />
         <option value="$PROJECT_DIR$/lib/rcon_client.rb" />
         <option value="$PROJECT_DIR$/lib/query_client.rb" />
+        <option value="$PROJECT_DIR$/lib/source_buffer.rb" />
       </list>
     </option>
   </component>
@@ -571,7 +570,11 @@
       <created>1381511347027</created>
       <updated>1381511347027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added file headers, created future SourceBuffer object.  We'll need this for RCON definitely.">
+      <created>1381511406698</created>
+      <updated>1381511406698</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -752,27 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/source_buffer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/source_port.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/source_address.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="30" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
@@ -789,7 +771,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/query_client.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="227" selection-end="227" vertical-scroll-proportion="0.20662983">
+        <state line="11" column="11" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/source_port.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="8" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/source_buffer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="106" selection-start="913" selection-end="913" vertical-scroll-proportion="0.5447514">
           <folding />
         </state>
       </provider>
