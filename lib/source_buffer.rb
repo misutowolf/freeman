@@ -11,6 +11,9 @@
 
 class SourceBuffer
 
+  # Accessors
+  attr_accessor :buffer, :length, :position
+
   # TODO: Implement buffer that will deal with SourceSocket.
 
 
@@ -28,5 +31,63 @@ class SourceBuffer
   #   * get_float() - Gets four bytes from buffer (Floating decimal)
   #   * get_ulong() - Gets four bytes from buffer (Unsigned Long Integer)
   #   * get_string() - Gets a null-terminated string from buffer.  Will require a loop (can't unpack this!)
+
+  # Set the buffer!
+  def set(buffer)
+    @buffer = buffer
+    @length = buffer.length
+    @position = 0
+  end
+
+
+
+  def reset
+    @buffer = ''
+    @length = 0
+    @position = 0
+  end
+
+
+
+  def get_remaining_bytes
+    @length-@position
+  end
+
+
+
+  def get(length=-1)
+
+    if length == 0
+      ''
+    end
+
+    remaining = get_remaining_bytes
+
+    if length == -1
+      length=remaining
+    elsif length > remaining
+      ''
+    end
+
+    data = @buffer[@position,length]
+    @position+=length
+    data
+
+  end
+
+
+
+  def get_byte
+    get(1).ord
+  end
+
+
+
+  def get_short
+    get(2).unpack('s')
+  end
+
+
+  # TODO:  Resume, starting with get_float()
 
 end
