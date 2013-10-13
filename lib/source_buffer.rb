@@ -14,47 +14,26 @@ class SourceBuffer
   # Accessors
   attr_accessor :buffer, :length, :position
 
-  # TODO: Implement buffer that will deal with SourceSocket.
-
-
-
-  # TODO: Methods that need to be implemeneted:
-  #
-  #   * set(buffer) - Takes SourceBuffer object
-  #   * reset()
-  #   * remaining_bytes()
-  #   * get(length) - Takes amount of bytes to get from buffer.
-
-  #   SPECIFIC DATA TYPES (unpack from front of buffer)
-  #   * get_byte()  - Gets first byte from buffer.
-  #   * get_short() - Gets two bytes from buffer
-  #   * get_float() - Gets four bytes from buffer (Floating decimal)
-  #   * get_ulong() - Gets four bytes from buffer (Unsigned Long Integer)
-  #   * get_string() - Gets a null-terminated string from buffer.  Will require a loop (can't unpack this!)
-
-  # Set the buffer!
+  # Set contents of buffer
   def set(buffer)
-    @buffer = buffer
+    @buffer = buffer.encode('binary')
     @length = buffer.length
     @position = 0
   end
 
-
-
+  # Reset buffer (empty), set length/position to zero.
   def reset
     @buffer = ''
     @length = 0
     @position = 0
   end
 
-
-
+  # Returns number of bytes remaining in buffer to read
   def get_remaining_bytes
     @length-@position
   end
 
-
-
+  # Get data from buffer (number of bytes specified).
   def get(length=-1)
 
     if length == 0
@@ -75,19 +54,45 @@ class SourceBuffer
 
   end
 
-
-
+  # Get a single byte from the buffer.
   def get_byte
     get(1).ord
   end
 
-
-
+  # Get a 16-bit unsigned integer from the buffer.
   def get_short
     get(2).unpack('s')
   end
 
+  # Get a 32-bit floating-point from the buffer.
+  def get_float
+    get(4).unpack('f')
+  end
 
-  # TODO:  Resume, starting with get_float()
+  # Get a 32-bit signed integer (long) from the buffer.
+  def get_long
+    get(4).unpack('l')
+  end
+
+  # Get a 32-bit unsigned integer (long) from the buffer
+  def get_ulong
+    get(4).unpack('L')
+  end
+
+  # Get a null ('/0') terminated string from the buffer.
+  def get_string
+
+    zero_byte = @buffer.index('\0',@position)
+
+    if zero_byte == nil
+      string = ''
+    else
+      string = get(zero_byte-@position)
+      @position+=2
+    end
+
+    string
+
+  end
 
 end
