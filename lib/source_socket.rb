@@ -15,12 +15,15 @@ require 'socket'
 
 class SourceSocket
 
-  attr_accessor :addr, :port
+  attr_accessor :addr, :port, :buffer
 
-  def initialize(addr,port)
+  def initialize(addr,port,buffer)
 
     addr.is_a?(SourceAddress) ? @addr = addr.ip : ( @addr = nil; puts 'Error: Address argument is wrong type.' )
     port.is_a?(SourcePort) ? @port = port.num : ( @port = nil; puts 'Error: Port argument is wrong type.' )
+
+    # Attach SourceBuffer here
+    @buffer = buffer
 
   end
 
@@ -28,8 +31,8 @@ class SourceSocket
     "#{@addr}:#{@port}"
   end
 
-  def connect
-
+  def connect(engine)
+    # TODO: Socket connection implementation
   end
 
 end
