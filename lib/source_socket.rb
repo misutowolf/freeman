@@ -19,8 +19,8 @@ class SourceSocket
 
   def initialize(addr,port)
 
-     addr.is_a?(SourceAddress) ? @addr = addr.ip : ( @addr = nil; puts 'Error: Address argument is wrong type.' )
-     port.is_a?(SourcePort) ? @port = port.num : ( @port = nil; puts 'Error: Port argument is wrong type.' )
+    addr.is_a?(SourceAddress) ? @addr = addr.ip : ( @addr = nil; puts 'Error: Address argument is wrong type.' )
+    port.is_a?(SourcePort) ? @port = port.num : ( @port = nil; puts 'Error: Port argument is wrong type.' )
 
   end
 
@@ -29,7 +29,7 @@ class SourceSocket
   end
 
   def connect
-    # TODO:  Deal with connecting to a remote server.
+
   end
 
 end
