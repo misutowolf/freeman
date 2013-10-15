@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f523497-18d0-42ca-bc27-006c00a4317e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/freeman.iml" afterPath="$PROJECT_DIR$/.idea/freeman.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/source_socket.rb" afterPath="$PROJECT_DIR$/lib/source_socket.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -10,11 +10,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/README.md" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381345131476" ignored="false" />
     <file path="/source_address_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511073098" ignored="false" />
-    <file path="/Dummy.txt" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381799769231" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381855286218" ignored="false" />
     <file path="/source_address.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510802520" ignored="false" />
     <file path="/a.rxml" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381377310499" ignored="false" />
     <file path="/spec_helper.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511059464" ignored="false" />
-    <file path="/source_socket.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381810560351" ignored="false" />
+    <file path="/source_socket.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381842384148" ignored="false" />
     <file path="/source_socket_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510980638" ignored="false" />
     <file path="/source_port_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511068018" ignored="false" />
     <file path="/source_buffer.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381615653829" ignored="false" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="source_socket.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="20" selection-start="740" selection-end="740" vertical-scroll-proportion="0.8173077">
+            <state line="11" column="90" selection-start="241" selection-end="241" vertical-scroll-proportion="0.18232045">
               <folding />
             </state>
           </provider>
@@ -92,10 +92,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="-4" />
-    <option name="width" value="1319" />
-    <option name="height" value="773" />
+    <option name="x" value="-1" />
+    <option name="y" value="31" />
+    <option name="width" value="1922" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -177,10 +177,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="RSpec.All specs in: spec">
     <configuration default="false" name="#new" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
@@ -526,14 +526,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="31" width="1922" height="1053" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986301" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24862313" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15741728" sideWeight="0.67151767" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -626,30 +626,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/source_address_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="19" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/source_address.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="30" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/source_address_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -659,37 +651,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="36" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/source_socket_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="4" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/source_port_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="14" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/source_address_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="14" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/source_address.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="30" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/rcon_client.rb">
@@ -701,16 +683,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/source_port.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="27" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/source_buffer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="104" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.4070513">
-          <folding />
-        </state>
+        <state line="66" column="104" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.4070513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/query_client.rb">
@@ -722,7 +700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="20" selection-start="740" selection-end="740" vertical-scroll-proportion="0.8173077">
+        <state line="11" column="90" selection-start="241" selection-end="241" vertical-scroll-proportion="0.18232045">
           <folding />
         </state>
       </provider>

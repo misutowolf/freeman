@@ -17,6 +17,7 @@ class SourceSocket
 
   attr_accessor :addr, :port, :buffer
 
+  # Creates a SourceSocket object, using the SourceAddress/SourcePort objects, and attaching a SourceBuffer
   def initialize(addr,port,buffer)
 
     addr.is_a?(SourceAddress) ? @addr = addr.ip : ( @addr = nil; puts 'Error: Address argument is wrong type.' )
@@ -27,14 +28,31 @@ class SourceSocket
 
   end
 
+  # The server's 'string' is server:port format.
   def to_s
     "#{@addr}:#{@port}"
   end
 
+  # Opens a connection to the remote server.
   def open(engine)
     @engine = engine
-    @socket = UDPSocket.new
-    @socket.connect(@addr,@port)
+    @socket = Socket.new Socket::PF_INET, Socket::SOCK_DGRAM
+    @socket.connect Socket.pack_sockaddr_in(@port,@addr)
   end
+
+  # Writes a command to the remote server, with header.
+  def write(header, string='')
+    command = [0xFF, 0xFF, 0xFF, 0xFF, header, string].pack('ccccca*')
+    length = command.length
+    length === @socket.write(command)
+  end
+
+  # Reads data from the remote server connection (1400 bytes at a time)
+  def read(length=1400)
+    @buffer.set(@socket.recvfrom(length[0]))
+
+  end
+
+
 
 end
