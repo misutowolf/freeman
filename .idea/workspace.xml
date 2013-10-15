@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f523497-18d0-42ca-bc27-006c00a4317e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/source_socket.rb" afterPath="$PROJECT_DIR$/lib/source_socket.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -9,11 +10,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/README.md" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381345131476" ignored="false" />
     <file path="/source_address_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511073098" ignored="false" />
-    <file path="/Dummy.txt" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381759056041" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381799769231" ignored="false" />
     <file path="/source_address.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510802520" ignored="false" />
     <file path="/a.rxml" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381377310499" ignored="false" />
     <file path="/spec_helper.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511059464" ignored="false" />
-    <file path="/source_socket.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381759395090" ignored="false" />
+    <file path="/source_socket.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381810560351" ignored="false" />
     <file path="/source_socket_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381510980638" ignored="false" />
     <file path="/source_port_spec.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381511068018" ignored="false" />
     <file path="/source_buffer.rb" changelist="2f523497-18d0-42ca-bc27-006c00a4317e" time="1381615653829" ignored="false" />
@@ -42,7 +43,7 @@
       <file leaf-file-name="source_socket.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="44" selection-start="767" selection-end="767" vertical-scroll-proportion="0.54603857">
+            <state line="34" column="20" selection-start="740" selection-end="740" vertical-scroll-proportion="0.8173077">
               <folding />
             </state>
           </provider>
@@ -93,8 +94,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="48" />
     <option name="y" value="-4" />
-    <option name="width" value="1873" />
-    <option name="height" value="1085" />
+    <option name="width" value="1319" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -122,6 +123,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +172,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,15 +526,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-4" width="1873" height="1085" extended-state="6" />
+    <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986301" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24054794" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24862313" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -543,6 +543,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -721,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/source_socket.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="44" selection-start="767" selection-end="767" vertical-scroll-proportion="0.54603857">
+        <state line="34" column="20" selection-start="740" selection-end="740" vertical-scroll-proportion="0.8173077">
           <folding />
         </state>
       </provider>

@@ -31,8 +31,10 @@ class SourceSocket
     "#{@addr}:#{@port}"
   end
 
-  def connect(engine)
-    # TODO: Socket connection implementation
+  def open(engine)
+    @engine = engine
+    @socket = UDPSocket.new
+    @socket.connect(@addr,@port)
   end
 
 end
