@@ -49,10 +49,20 @@ class SourceSocket
 
   # Reads data from the remote server connection (1400 bytes at a time)
   def read(length=1400)
-    @buffer.set(@socket.recvfrom(length[0]))
+
+    @buffer.set(@socket.recvfrom(length)[0])
+
+    # Check for split packets
+    if @buffer.remaining > 0 && @buffer.get_long == -2
+
+      packets = Array.new
+      is_compressed = false
+      read_more = false
+
+
+
+    end
+
 
   end
-
-
-
 end

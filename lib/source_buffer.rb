@@ -82,16 +82,18 @@ class SourceBuffer
   # Get a null ('/0') terminated string from the buffer.
   def get_string
 
-    zero_byte = @buffer.index('\0',@position)
+   zero_byte = @buffer.index("\0",@position)
 
     if zero_byte == nil
       string = ''
     else
       string = get(zero_byte-@position)
-      @position+=2
+      @position+=1
     end
 
     string
+
+		
 
   end
 
