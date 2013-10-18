@@ -13,6 +13,7 @@ require 'source_address'
 require 'source_port'
 require 'socket'
 require 'bzip2-ruby'
+require 'zlib'
 
 class SourceSocket
 
@@ -23,9 +24,7 @@ class SourceSocket
 
     addr.is_a?(SourceAddress) ? @addr = addr.ip : ( @addr = nil; puts 'Error: Address argument is wrong type.' )
     port.is_a?(SourcePort) ? @port = port.num : ( @port = nil; puts 'Error: Port argument is wrong type.' )
-
-    # Attach SourceBuffer here
-    @buffer = buffer
+    buffer.is_a?(SourceSocket) ? @buffer = buffer : ( @buffer = nil; puts 'Error: Buffer must be a SourceBuffer object!')
 
   end
 
@@ -90,7 +89,17 @@ class SourceSocket
 
       buffer = packets.join
 
-      # TODO:  DEAL WITH BZIP2 COMPRESSION HERE.  Require BZ2 capability or not? (Ask in IRC)
+      if is_compressed
+        data = Bzip2.uncompress data
+
+        # Check the CRC32 checksum
+        if Zlib::crc32(data) != packet_checksum
+          raise 'Mismatched CRC32 checksum of uncompressed packet!'
+        end
+
+      end
+
+      @buffer.set(buffer[4,buffer.length-4])
 
     end
 
@@ -99,6 +108,7 @@ class SourceSocket
 
   # Will throw us out of the read loop if there's less than four bytes left to read in the socket.
   def sherlock(length)
+
     data = @socket.recvfrom(length)
 
     # Check length of data read
@@ -108,7 +118,7 @@ class SourceSocket
 
     # Otherwise, set the buffer with the data you read, and read split packet status
     @buffer.set(data)
-    return @buffer.get_long == 2
+    @buffer.get_long == 2
 
   end
 
